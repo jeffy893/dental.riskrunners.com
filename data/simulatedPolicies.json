@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-13T18:09:42.376601",
+  "generated": "2026-04-13T18:12:10.560355",
   "summary_statistics": {
     "total_policies": 12,
-    "total_premium_income": 591611.77,
-    "total_claims_3_years": 16,
-    "total_incurred_3_years": 362343.52,
-    "loss_ratio_3_years": 0.6125,
+    "total_premium_income": 621457.12,
+    "total_claims_3_years": 19,
+    "total_incurred_3_years": 439672.93,
+    "loss_ratio_3_years": 0.7075,
     "specialty_distribution": {
       "General": 3,
       "Implant": 3,
@@ -21,14 +21,14 @@
         "name": "Dr. Adams",
         "specialty": "General",
         "address": {
-          "street": "1795 Dental Way",
-          "city": "Scottsdale",
+          "street": "4094 Dental Way",
+          "city": "Phoenix",
           "state": "AZ",
-          "zip": "85084"
+          "zip": "85014"
         },
         "contact": {
           "name": "Dr. Adams",
-          "phone": "(602) 555-5965"
+          "phone": "(602) 555-3145"
         }
       },
       "risk_class": {
@@ -62,17 +62,17 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -572.22,
-        "total_premium": 49427.78,
+        "experience_modification": 1494.44,
+        "total_premium": 51494.44,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Adams operates a general dental practice with 16 years of experience and a tech adoption level of 39%.",
-        "operations_description": "Practice specializing in general dentistry with annual revenue of $2,082,525. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Adams operates a general dental practice with 13 years of experience and a tech adoption level of 80%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $1,572,710. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 39% (higher = more innovation risk)",
-          "Experience: 16 years",
+          "Tech adoption level: 80% (higher = more innovation risk)",
+          "Experience: 13 years",
           "Prior claims: 1 in last 3 years"
         ],
         "loss_control_measures": [
@@ -85,12 +85,12 @@
       "claims_history": {
         "prior_3_years": {
           "total_claims": 1,
-          "total_incurred": 18245.64,
+          "total_incurred": 27675.23,
           "claims_detail": [
             {
-              "date": "2024-07-06",
-              "type": "Cyber Incident",
-              "amount": 18245.64,
+              "date": "2024-09-24",
+              "type": "Equipment Failure",
+              "amount": 27675.23,
               "status": "Closed"
             }
           ]
@@ -100,7 +100,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7414.17
+        "reinsurance_premium": 7724.17
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -115,14 +115,14 @@
         "name": "Dr. Baker",
         "specialty": "General",
         "address": {
-          "street": "1006 Dental Way",
+          "street": "4947 Dental Way",
           "city": "Tempe",
           "state": "AZ",
-          "zip": "85045"
+          "zip": "85007"
         },
         "contact": {
           "name": "Dr. Baker",
-          "phone": "(602) 555-7458"
+          "phone": "(602) 555-3148"
         }
       },
       "risk_class": {
@@ -156,18 +156,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -477.43,
-        "total_premium": 49522.57,
+        "experience_modification": -64.61,
+        "total_premium": 49935.39,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Baker operates a general dental practice with 23 years of experience and a tech adoption level of 40%.",
-        "operations_description": "Practice specializing in general dentistry with annual revenue of $1,179,471. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Baker operates a general dental practice with 7 years of experience and a tech adoption level of 49%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $1,769,264. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 40% (higher = more innovation risk)",
-          "Experience: 23 years",
-          "Prior claims: 2 in last 3 years"
+          "Tech adoption level: 49% (higher = more innovation risk)",
+          "Experience: 7 years",
+          "Prior claims: 1 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -178,19 +178,13 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 2,
-          "total_incurred": 41126.46,
+          "total_claims": 1,
+          "total_incurred": 36649.65,
           "claims_detail": [
             {
-              "date": "2024-01-18",
+              "date": "2024-01-27",
               "type": "Equipment Failure",
-              "amount": 17692.83,
-              "status": "Closed"
-            },
-            {
-              "date": "2024-03-11",
-              "type": "Equipment Failure",
-              "amount": 23433.63,
+              "amount": 36649.65,
               "status": "Closed"
             }
           ]
@@ -200,7 +194,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7428.39
+        "reinsurance_premium": 7490.31
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -215,14 +209,14 @@
         "name": "Dr. Chen",
         "specialty": "General",
         "address": {
-          "street": "6468 Dental Way",
-          "city": "Chandler",
+          "street": "4057 Dental Way",
+          "city": "Mesa",
           "state": "AZ",
-          "zip": "85035"
+          "zip": "85022"
         },
         "contact": {
           "name": "Dr. Chen",
-          "phone": "(602) 555-3273"
+          "phone": "(602) 555-9513"
         }
       },
       "risk_class": {
@@ -256,18 +250,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -5821.04,
-        "total_premium": 44178.96,
+        "experience_modification": 875.17,
+        "total_premium": 50875.17,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Chen operates a general dental practice with 19 years of experience and a tech adoption level of 90%.",
-        "operations_description": "Practice specializing in general dentistry with annual revenue of $1,376,692. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Chen operates a general dental practice with 22 years of experience and a tech adoption level of 68%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $2,130,002. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 90% (higher = more innovation risk)",
-          "Experience: 19 years",
-          "Prior claims: 0 in last 3 years"
+          "Tech adoption level: 68% (higher = more innovation risk)",
+          "Experience: 22 years",
+          "Prior claims: 2 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -278,16 +272,29 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 0,
-          "total_incurred": 0,
-          "claims_detail": []
+          "total_claims": 2,
+          "total_incurred": 41018.57,
+          "claims_detail": [
+            {
+              "date": "2024-04-05",
+              "type": "Procedure Complication",
+              "amount": 28349.47,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-09-17",
+              "type": "Cyber Incident",
+              "amount": 12669.1,
+              "status": "Closed"
+            }
+          ]
         }
       },
       "reinsurance": {
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 6626.84
+        "reinsurance_premium": 7631.27
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -302,14 +309,14 @@
         "name": "Dr. Davis",
         "specialty": "Implant",
         "address": {
-          "street": "5870 Dental Way",
-          "city": "Phoenix",
+          "street": "1106 Dental Way",
+          "city": "Scottsdale",
           "state": "AZ",
-          "zip": "85009"
+          "zip": "85092"
         },
         "contact": {
           "name": "Dr. Davis",
-          "phone": "(602) 555-3578"
+          "phone": "(602) 555-9793"
         }
       },
       "risk_class": {
@@ -343,18 +350,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -687.7,
-        "total_premium": 49312.3,
+        "experience_modification": -6988.54,
+        "total_premium": 43011.46,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Davis operates a implant dental practice with 19 years of experience and a tech adoption level of 36%.",
-        "operations_description": "Practice specializing in implant dentistry with annual revenue of $1,757,959. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Davis operates a implant dental practice with 6 years of experience and a tech adoption level of 62%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $2,479,841. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 36% (higher = more innovation risk)",
-          "Experience: 19 years",
-          "Prior claims: 2 in last 3 years"
+          "Tech adoption level: 62% (higher = more innovation risk)",
+          "Experience: 6 years",
+          "Prior claims: 0 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -365,29 +372,16 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 2,
-          "total_incurred": 32580.44,
-          "claims_detail": [
-            {
-              "date": "2024-12-17",
-              "type": "Cyber Incident",
-              "amount": 24111.8,
-              "status": "Closed"
-            },
-            {
-              "date": "2024-01-19",
-              "type": "Procedure Complication",
-              "amount": 8468.64,
-              "status": "Closed"
-            }
-          ]
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
         }
       },
       "reinsurance": {
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7396.85
+        "reinsurance_premium": 6451.72
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -402,14 +396,14 @@
         "name": "Dr. Evans",
         "specialty": "Implant",
         "address": {
-          "street": "8590 Dental Way",
+          "street": "7634 Dental Way",
           "city": "Mesa",
           "state": "AZ",
-          "zip": "85091"
+          "zip": "85044"
         },
         "contact": {
           "name": "Dr. Evans",
-          "phone": "(602) 555-1416"
+          "phone": "(602) 555-8926"
         }
       },
       "risk_class": {
@@ -443,18 +437,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -7685.22,
-        "total_premium": 42314.78,
+        "experience_modification": -679.59,
+        "total_premium": 49320.41,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Evans operates a implant dental practice with 17 years of experience and a tech adoption level of 46%.",
-        "operations_description": "Practice specializing in implant dentistry with annual revenue of $1,141,302. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Evans operates a implant dental practice with 13 years of experience and a tech adoption level of 36%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $1,331,529. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 46% (higher = more innovation risk)",
-          "Experience: 17 years",
-          "Prior claims: 0 in last 3 years"
+          "Tech adoption level: 36% (higher = more innovation risk)",
+          "Experience: 13 years",
+          "Prior claims: 1 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -465,16 +459,23 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 0,
-          "total_incurred": 0,
-          "claims_detail": []
+          "total_claims": 1,
+          "total_incurred": 5447.25,
+          "claims_detail": [
+            {
+              "date": "2024-03-17",
+              "type": "Cyber Incident",
+              "amount": 5447.25,
+              "status": "Closed"
+            }
+          ]
         }
       },
       "reinsurance": {
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 6347.22
+        "reinsurance_premium": 7398.06
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -489,14 +490,14 @@
         "name": "Dr. Foster",
         "specialty": "Implant",
         "address": {
-          "street": "1250 Dental Way",
-          "city": "Scottsdale",
+          "street": "7072 Dental Way",
+          "city": "Mesa",
           "state": "AZ",
-          "zip": "85091"
+          "zip": "85093"
         },
         "contact": {
           "name": "Dr. Foster",
-          "phone": "(602) 555-4242"
+          "phone": "(602) 555-7149"
         }
       },
       "risk_class": {
@@ -530,17 +531,17 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": 748.34,
-        "total_premium": 50748.34,
+        "experience_modification": 1350.55,
+        "total_premium": 51350.55,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Foster operates a implant dental practice with 16 years of experience and a tech adoption level of 65%.",
-        "operations_description": "Practice specializing in implant dentistry with annual revenue of $2,142,321. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Foster operates a implant dental practice with 10 years of experience and a tech adoption level of 77%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $2,362,251. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 65% (higher = more innovation risk)",
-          "Experience: 16 years",
+          "Tech adoption level: 77% (higher = more innovation risk)",
+          "Experience: 10 years",
           "Prior claims: 2 in last 3 years"
         ],
         "loss_control_measures": [
@@ -553,18 +554,18 @@
       "claims_history": {
         "prior_3_years": {
           "total_claims": 2,
-          "total_incurred": 32151.89,
+          "total_incurred": 46384.9,
           "claims_detail": [
             {
-              "date": "2024-11-03",
-              "type": "Procedure Complication",
-              "amount": 13599.64,
+              "date": "2024-11-22",
+              "type": "Equipment Failure",
+              "amount": 19369.0,
               "status": "Closed"
             },
             {
-              "date": "2024-09-25",
-              "type": "Cyber Incident",
-              "amount": 18552.25,
+              "date": "2024-04-21",
+              "type": "Procedure Complication",
+              "amount": 27015.9,
               "status": "Closed"
             }
           ]
@@ -574,7 +575,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7612.25
+        "reinsurance_premium": 7702.58
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -589,14 +590,14 @@
         "name": "Dr. Garcia",
         "specialty": "Cosmetic",
         "address": {
-          "street": "3704 Dental Way",
-          "city": "Tempe",
+          "street": "6339 Dental Way",
+          "city": "Chandler",
           "state": "AZ",
-          "zip": "85006"
+          "zip": "85004"
         },
         "contact": {
           "name": "Dr. Garcia",
-          "phone": "(602) 555-5146"
+          "phone": "(602) 555-6243"
         }
       },
       "risk_class": {
@@ -630,17 +631,17 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -7283.93,
-        "total_premium": 42716.07,
+        "experience_modification": -7835.75,
+        "total_premium": 42164.25,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Garcia operates a cosmetic dental practice with 7 years of experience and a tech adoption level of 55%.",
-        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $1,714,247. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Garcia operates a cosmetic dental practice with 9 years of experience and a tech adoption level of 42%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $1,961,880. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 55% (higher = more innovation risk)",
-          "Experience: 7 years",
+          "Tech adoption level: 42% (higher = more innovation risk)",
+          "Experience: 9 years",
           "Prior claims: 0 in last 3 years"
         ],
         "loss_control_measures": [
@@ -661,7 +662,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 6407.41
+        "reinsurance_premium": 6324.64
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -676,14 +677,14 @@
         "name": "Dr. Harris",
         "specialty": "Cosmetic",
         "address": {
-          "street": "3483 Dental Way",
-          "city": "Scottsdale",
+          "street": "1485 Dental Way",
+          "city": "Mesa",
           "state": "AZ",
-          "zip": "85068"
+          "zip": "85008"
         },
         "contact": {
           "name": "Dr. Harris",
-          "phone": "(602) 555-5712"
+          "phone": "(602) 555-9453"
         }
       },
       "risk_class": {
@@ -717,17 +718,17 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": 755.2,
-        "total_premium": 50755.2,
+        "experience_modification": -235.56,
+        "total_premium": 49764.44,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Harris operates a cosmetic dental practice with 8 years of experience and a tech adoption level of 65%.",
-        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $1,775,368. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Harris operates a cosmetic dental practice with 6 years of experience and a tech adoption level of 45%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $1,766,874. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 65% (higher = more innovation risk)",
-          "Experience: 8 years",
+          "Tech adoption level: 45% (higher = more innovation risk)",
+          "Experience: 6 years",
           "Prior claims: 2 in last 3 years"
         ],
         "loss_control_measures": [
@@ -740,18 +741,18 @@
       "claims_history": {
         "prior_3_years": {
           "total_claims": 2,
-          "total_incurred": 57710.7,
+          "total_incurred": 42035.45,
           "claims_detail": [
             {
-              "date": "2024-04-21",
-              "type": "Procedure Complication",
-              "amount": 21785.14,
+              "date": "2024-06-06",
+              "type": "Equipment Failure",
+              "amount": 24196.31,
               "status": "Closed"
             },
             {
-              "date": "2024-02-06",
+              "date": "2024-12-11",
               "type": "Equipment Failure",
-              "amount": 35925.56,
+              "amount": 17839.14,
               "status": "Closed"
             }
           ]
@@ -761,7 +762,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7613.28
+        "reinsurance_premium": 7464.67
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -776,14 +777,14 @@
         "name": "Dr. Ibrahim",
         "specialty": "Cosmetic",
         "address": {
-          "street": "366 Dental Way",
-          "city": "Chandler",
+          "street": "9001 Dental Way",
+          "city": "Phoenix",
           "state": "AZ",
-          "zip": "85025"
+          "zip": "85078"
         },
         "contact": {
           "name": "Dr. Ibrahim",
-          "phone": "(602) 555-1929"
+          "phone": "(602) 555-3700"
         }
       },
       "risk_class": {
@@ -817,18 +818,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": -707.35,
-        "total_premium": 49292.65,
+        "experience_modification": 11199.26,
+        "total_premium": 61199.26,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Ibrahim operates a cosmetic dental practice with 16 years of experience and a tech adoption level of 36%.",
-        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $2,275,510. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Ibrahim operates a cosmetic dental practice with 14 years of experience and a tech adoption level of 70%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $2,308,759. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 36% (higher = more innovation risk)",
-          "Experience: 16 years",
-          "Prior claims: 1 in last 3 years"
+          "Tech adoption level: 70% (higher = more innovation risk)",
+          "Experience: 14 years",
+          "Prior claims: 3 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -839,13 +840,25 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 1,
-          "total_incurred": 37148.05,
+          "total_claims": 3,
+          "total_incurred": 44062.22,
           "claims_detail": [
             {
-              "date": "2024-03-22",
-              "type": "Equipment Failure",
-              "amount": 37148.05,
+              "date": "2024-05-19",
+              "type": "Cyber Incident",
+              "amount": 10231.38,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-04-14",
+              "type": "Procedure Complication",
+              "amount": 22218.02,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-05-15",
+              "type": "Cyber Incident",
+              "amount": 11612.82,
               "status": "Closed"
             }
           ]
@@ -855,7 +868,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7393.9
+        "reinsurance_premium": 9179.89
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -870,14 +883,14 @@
         "name": "Dr. Jones",
         "specialty": "Pediatric",
         "address": {
-          "street": "8771 Dental Way",
-          "city": "Scottsdale",
+          "street": "4118 Dental Way",
+          "city": "Mesa",
           "state": "AZ",
-          "zip": "85006"
+          "zip": "85038"
         },
         "contact": {
           "name": "Dr. Jones",
-          "phone": "(602) 555-4004"
+          "phone": "(602) 555-8588"
         }
       },
       "risk_class": {
@@ -911,18 +924,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": 1853.57,
-        "total_premium": 51853.57,
+        "experience_modification": 11853.97,
+        "total_premium": 61853.97,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Jones operates a pediatric dental practice with 20 years of experience and a tech adoption level of 87%.",
-        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $2,003,201. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Jones operates a pediatric dental practice with 22 years of experience and a tech adoption level of 81%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $1,493,899. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 87% (higher = more innovation risk)",
-          "Experience: 20 years",
-          "Prior claims: 2 in last 3 years"
+          "Tech adoption level: 81% (higher = more innovation risk)",
+          "Experience: 22 years",
+          "Prior claims: 3 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -933,19 +946,25 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 2,
-          "total_incurred": 46618.53,
+          "total_claims": 3,
+          "total_incurred": 74598.13,
           "claims_detail": [
             {
-              "date": "2024-05-28",
-              "type": "Cyber Incident",
-              "amount": 30944.98,
+              "date": "2024-07-07",
+              "type": "Procedure Complication",
+              "amount": 35711.86,
               "status": "Closed"
             },
             {
-              "date": "2024-10-18",
-              "type": "Procedure Complication",
-              "amount": 15673.55,
+              "date": "2024-07-13",
+              "type": "Cyber Incident",
+              "amount": 20067.1,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-03-19",
+              "type": "Cyber Incident",
+              "amount": 18819.17,
               "status": "Closed"
             }
           ]
@@ -955,7 +974,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7778.04
+        "reinsurance_premium": 9278.1
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -970,14 +989,14 @@
         "name": "Dr. Kim",
         "specialty": "Pediatric",
         "address": {
-          "street": "1057 Dental Way",
-          "city": "Tempe",
+          "street": "9965 Dental Way",
+          "city": "Scottsdale",
           "state": "AZ",
-          "zip": "85047"
+          "zip": "85010"
         },
         "contact": {
           "name": "Dr. Kim",
-          "phone": "(602) 555-2264"
+          "phone": "(602) 555-1190"
         }
       },
       "risk_class": {
@@ -1011,18 +1030,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": 1407.77,
-        "total_premium": 51407.77,
+        "experience_modification": 9392.38,
+        "total_premium": 59392.38,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Kim operates a pediatric dental practice with 23 years of experience and a tech adoption level of 78%.",
-        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $1,713,505. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Kim operates a pediatric dental practice with 6 years of experience and a tech adoption level of 40%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $1,319,375. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 78% (higher = more innovation risk)",
-          "Experience: 23 years",
-          "Prior claims: 1 in last 3 years"
+          "Tech adoption level: 40% (higher = more innovation risk)",
+          "Experience: 6 years",
+          "Prior claims: 3 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -1033,13 +1052,25 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 1,
-          "total_incurred": 22026.79,
+          "total_claims": 3,
+          "total_incurred": 86530.95,
           "claims_detail": [
             {
-              "date": "2024-02-20",
-              "type": "Equipment Failure",
-              "amount": 22026.79,
+              "date": "2024-10-16",
+              "type": "Cyber Incident",
+              "amount": 36120.98,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-12-17",
+              "type": "Procedure Complication",
+              "amount": 36654.63,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-12-01",
+              "type": "Cyber Incident",
+              "amount": 13755.34,
               "status": "Closed"
             }
           ]
@@ -1049,7 +1080,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 7711.17
+        "reinsurance_premium": 8908.86
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",
@@ -1064,14 +1095,14 @@
         "name": "Dr. Lopez",
         "specialty": "Pediatric",
         "address": {
-          "street": "843 Dental Way",
+          "street": "8838 Dental Way",
           "city": "Scottsdale",
           "state": "AZ",
-          "zip": "85069"
+          "zip": "85011"
         },
         "contact": {
           "name": "Dr. Lopez",
-          "phone": "(602) 555-7455"
+          "phone": "(602) 555-2513"
         }
       },
       "risk_class": {
@@ -1105,18 +1136,18 @@
       },
       "premium": {
         "base_premium": 50000,
-        "experience_modification": 10081.78,
-        "total_premium": 60081.78,
+        "experience_modification": 1095.4,
+        "total_premium": 51095.4,
         "payment_terms": "Annual",
         "installments": 1
       },
       "risk_narrative": {
-        "summary": "Dr. Lopez operates a pediatric dental practice with 20 years of experience and a tech adoption level of 51%.",
-        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $1,383,994. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "summary": "Dr. Lopez operates a pediatric dental practice with 12 years of experience and a tech adoption level of 72%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $2,298,795. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
         "risk_factors": [
-          "Tech adoption level: 51% (higher = more innovation risk)",
-          "Experience: 20 years",
-          "Prior claims: 3 in last 3 years"
+          "Tech adoption level: 72% (higher = more innovation risk)",
+          "Experience: 12 years",
+          "Prior claims: 1 in last 3 years"
         ],
         "loss_control_measures": [
           "Quarterly equipment maintenance program",
@@ -1127,25 +1158,13 @@
       },
       "claims_history": {
         "prior_3_years": {
-          "total_claims": 3,
-          "total_incurred": 74735.02,
+          "total_claims": 1,
+          "total_incurred": 35270.58,
           "claims_detail": [
             {
-              "date": "2024-02-26",
-              "type": "Procedure Complication",
-              "amount": 26326.26,
-              "status": "Closed"
-            },
-            {
-              "date": "2024-08-09",
+              "date": "2024-03-16",
               "type": "Equipment Failure",
-              "amount": 39801.47,
-              "status": "Closed"
-            },
-            {
-              "date": "2024-02-26",
-              "type": "Cyber Incident",
-              "amount": 8607.29,
+              "amount": 35270.58,
               "status": "Closed"
             }
           ]
@@ -1155,7 +1174,7 @@
         "treaty_applicable": true,
         "excess_of_loss_attachment": 250000,
         "reinsurer": "Arizona Re (Simulated)",
-        "reinsurance_premium": 9012.27
+        "reinsurance_premium": 7664.31
       },
       "underwriting": {
         "underwriter": "Risk Runners Dental Captive",

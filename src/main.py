@@ -112,10 +112,12 @@ def run_claims_analysis():
         by_type = df.groupby('risk_type')['amount'].sum()
         wedges, texts, autotexts = ax1.pie(
             by_type.values, labels=[t.replace('_', ' ').title() for t in by_type.index],
-            autopct='%1.1f%%', colors=['#E76F51', '#2A9D8F', '#1B2A4A'], startangle=90)
+            autopct='%1.1f%%', colors=['#F4A261', '#81B29A', '#7EB8DA'],
+            startangle=90, textprops={'fontsize': 12})
         for t in autotexts:
-            t.set_color('white')
+            t.set_color('#1B2A4A')
             t.set_fontweight('bold')
+            t.set_fontsize(14)
         ax1.set_title('Claims by Risk Type (10 Years)', fontweight='bold')
 
         by_spec = df.groupby('specialty')['amount'].count()
