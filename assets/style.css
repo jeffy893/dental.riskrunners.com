@@ -161,37 +161,7 @@ nav {
 }
 
 /* ==================== HAMBURGER MENU ==================== */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 5px;
-    padding: 5px;
-    background: none;
-    border: none;
-    z-index: 1001;
-}
-
-.hamburger span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--white);
-    border-radius: 3px;
-    transition: all 0.3s ease;
-}
-
-.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 6px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -6px);
-}
+/* Removed — nav links always visible, wrapping on small screens */
 
 /* ==================== HERO SECTION ==================== */
 .hero {
@@ -571,34 +541,18 @@ footer {
 /* ==================== MOBILE SPECIFIC ==================== */
 @media (max-width: 768px) {
     .hamburger {
-        display: flex;
+        display: none;
     }
 
     .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--primary-color);
-        flex-direction: column;
-        padding: 1rem;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        gap: 0;
-    }
-
-    .nav-links.active {
-        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 0.25rem;
     }
 
     .nav-links a {
-        padding: 0.75rem 1rem;
-        font-size: 1rem;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .nav-links li:last-child a {
-        border-bottom: none;
+        padding: 0.4rem 0.5rem;
+        font-size: 0.75rem;
     }
 
     /* Override inline grid layouts */
