@@ -1,0 +1,1179 @@
+{
+  "generated": "2026-04-13T18:06:17.511027",
+  "summary_statistics": {
+    "total_policies": 12,
+    "total_premium_income": 613457.25,
+    "total_claims_3_years": 18,
+    "total_incurred_3_years": 390184.73,
+    "loss_ratio_3_years": 0.636,
+    "specialty_distribution": {
+      "General": 3,
+      "Implant": 3,
+      "Cosmetic": 3,
+      "Pediatric": 3
+    }
+  },
+  "policies": [
+    {
+      "policy_number": "RR-DENT-2026-001",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Adams",
+        "specialty": "General",
+        "address": {
+          "street": "7656 Dental Way",
+          "city": "Tempe",
+          "state": "AZ",
+          "zip": "85080"
+        },
+        "contact": {
+          "name": "Dr. Adams",
+          "phone": "(602) 555-3039"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "General Dentistry",
+        "market_segment": "General"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": -7347.34,
+        "total_premium": 42652.66,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Adams operates a general dental practice with 24 years of experience and a tech adoption level of 54%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $2,117,777. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 54% (higher = more innovation risk)",
+          "Experience: 24 years",
+          "Prior claims: 0 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 6397.9
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-002",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Baker",
+        "specialty": "General",
+        "address": {
+          "street": "5502 Dental Way",
+          "city": "Tempe",
+          "state": "AZ",
+          "zip": "85025"
+        },
+        "contact": {
+          "name": "Dr. Baker",
+          "phone": "(602) 555-3706"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "General Dentistry",
+        "market_segment": "General"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 311.4,
+        "total_premium": 50311.4,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Baker operates a general dental practice with 5 years of experience and a tech adoption level of 56%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $2,183,794. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 56% (higher = more innovation risk)",
+          "Experience: 5 years",
+          "Prior claims: 2 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 40050.9,
+          "claims_detail": [
+            {
+              "date": "2024-02-02",
+              "type": "Procedure Complication",
+              "amount": 17539.79,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-04-04",
+              "type": "Equipment Failure",
+              "amount": 22511.11,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7546.71
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-003",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Chen",
+        "specialty": "General",
+        "address": {
+          "street": "8731 Dental Way",
+          "city": "Chandler",
+          "state": "AZ",
+          "zip": "85036"
+        },
+        "contact": {
+          "name": "Dr. Chen",
+          "phone": "(602) 555-7946"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "General Dentistry",
+        "market_segment": "General"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": -463.39,
+        "total_premium": 49536.61,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Chen operates a general dental practice with 21 years of experience and a tech adoption level of 41%.",
+        "operations_description": "Practice specializing in general dentistry with annual revenue of $1,518,730. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 41% (higher = more innovation risk)",
+          "Experience: 21 years",
+          "Prior claims: 2 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 56227.7,
+          "claims_detail": [
+            {
+              "date": "2024-12-02",
+              "type": "Equipment Failure",
+              "amount": 17190.36,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-07-04",
+              "type": "Procedure Complication",
+              "amount": 39037.34,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7430.49
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-004",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Davis",
+        "specialty": "Implant",
+        "address": {
+          "street": "865 Dental Way",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85016"
+        },
+        "contact": {
+          "name": "Dr. Davis",
+          "phone": "(602) 555-1612"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Implant Dentistry",
+        "market_segment": "Implant"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 1647.5,
+        "total_premium": 51647.5,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Davis operates a implant dental practice with 17 years of experience and a tech adoption level of 83%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $2,164,164. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 83% (higher = more innovation risk)",
+          "Experience: 17 years",
+          "Prior claims: 1 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 18248.59,
+          "claims_detail": [
+            {
+              "date": "2024-04-08",
+              "type": "Procedure Complication",
+              "amount": 18248.59,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7747.12
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-005",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Evans",
+        "specialty": "Implant",
+        "address": {
+          "street": "4368 Dental Way",
+          "city": "Mesa",
+          "state": "AZ",
+          "zip": "85094"
+        },
+        "contact": {
+          "name": "Dr. Evans",
+          "phone": "(602) 555-4084"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Implant Dentistry",
+        "market_segment": "Implant"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 11971.03,
+        "total_premium": 61971.03,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Evans operates a implant dental practice with 17 years of experience and a tech adoption level of 83%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $1,930,170. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 83% (higher = more innovation risk)",
+          "Experience: 17 years",
+          "Prior claims: 3 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 3,
+          "total_incurred": 51952.79,
+          "claims_detail": [
+            {
+              "date": "2024-07-22",
+              "type": "Cyber Incident",
+              "amount": 21098.19,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-08-04",
+              "type": "Procedure Complication",
+              "amount": 24051.13,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-04-10",
+              "type": "Equipment Failure",
+              "amount": 6803.47,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 9295.65
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-006",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Foster",
+        "specialty": "Implant",
+        "address": {
+          "street": "3262 Dental Way",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85075"
+        },
+        "contact": {
+          "name": "Dr. Foster",
+          "phone": "(602) 555-1969"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Implant Dentistry",
+        "market_segment": "Implant"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": -30.08,
+        "total_premium": 49969.92,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Foster operates a implant dental practice with 17 years of experience and a tech adoption level of 49%.",
+        "operations_description": "Practice specializing in implant dentistry with annual revenue of $859,369. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 49% (higher = more innovation risk)",
+          "Experience: 17 years",
+          "Prior claims: 1 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 6046.17,
+          "claims_detail": [
+            {
+              "date": "2024-03-03",
+              "type": "Cyber Incident",
+              "amount": 6046.17,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7495.49
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-007",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Garcia",
+        "specialty": "Cosmetic",
+        "address": {
+          "street": "2332 Dental Way",
+          "city": "Mesa",
+          "state": "AZ",
+          "zip": "85084"
+        },
+        "contact": {
+          "name": "Dr. Garcia",
+          "phone": "(602) 555-1466"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Cosmetic Dentistry",
+        "market_segment": "Cosmetic"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 1598.88,
+        "total_premium": 51598.88,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Garcia operates a cosmetic dental practice with 9 years of experience and a tech adoption level of 82%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $2,429,132. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 82% (higher = more innovation risk)",
+          "Experience: 9 years",
+          "Prior claims: 2 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 2,
+          "total_incurred": 46414.8,
+          "claims_detail": [
+            {
+              "date": "2024-02-23",
+              "type": "Procedure Complication",
+              "amount": 38815.21,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-06-24",
+              "type": "Cyber Incident",
+              "amount": 7599.59,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7739.83
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-008",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Harris",
+        "specialty": "Cosmetic",
+        "address": {
+          "street": "4964 Dental Way",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85017"
+        },
+        "contact": {
+          "name": "Dr. Harris",
+          "phone": "(602) 555-3476"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Cosmetic Dentistry",
+        "market_segment": "Cosmetic"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 946.93,
+        "total_premium": 50946.93,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Harris operates a cosmetic dental practice with 14 years of experience and a tech adoption level of 69%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $2,438,721. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 69% (higher = more innovation risk)",
+          "Experience: 14 years",
+          "Prior claims: 1 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 1,
+          "total_incurred": 38316.22,
+          "claims_detail": [
+            {
+              "date": "2024-02-05",
+              "type": "Cyber Incident",
+              "amount": 38316.22,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 7642.04
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-009",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Ibrahim",
+        "specialty": "Cosmetic",
+        "address": {
+          "street": "6141 Dental Way",
+          "city": "Chandler",
+          "state": "AZ",
+          "zip": "85097"
+        },
+        "contact": {
+          "name": "Dr. Ibrahim",
+          "phone": "(602) 555-6279"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Cosmetic Dentistry",
+        "market_segment": "Cosmetic"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 9596.52,
+        "total_premium": 59596.52,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Ibrahim operates a cosmetic dental practice with 10 years of experience and a tech adoption level of 43%.",
+        "operations_description": "Practice specializing in cosmetic dentistry with annual revenue of $941,822. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 43% (higher = more innovation risk)",
+          "Experience: 10 years",
+          "Prior claims: 3 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 3,
+          "total_incurred": 61010.5,
+          "claims_detail": [
+            {
+              "date": "2024-02-28",
+              "type": "Equipment Failure",
+              "amount": 5237.85,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-08-23",
+              "type": "Cyber Incident",
+              "amount": 31588.57,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-10-08",
+              "type": "Equipment Failure",
+              "amount": 24184.08,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 8939.48
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-010",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Jones",
+        "specialty": "Pediatric",
+        "address": {
+          "street": "5722 Dental Way",
+          "city": "Tempe",
+          "state": "AZ",
+          "zip": "85062"
+        },
+        "contact": {
+          "name": "Dr. Jones",
+          "phone": "(602) 555-4130"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Pediatric Dentistry",
+        "market_segment": "Pediatric"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": -6173.56,
+        "total_premium": 43826.44,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Jones operates a pediatric dental practice with 24 years of experience and a tech adoption level of 81%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $902,929. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 81% (higher = more innovation risk)",
+          "Experience: 24 years",
+          "Prior claims: 0 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 6573.97
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-011",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Kim",
+        "specialty": "Pediatric",
+        "address": {
+          "street": "2264 Dental Way",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85095"
+        },
+        "contact": {
+          "name": "Dr. Kim",
+          "phone": "(602) 555-7811"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Pediatric Dentistry",
+        "market_segment": "Pediatric"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": 9489.61,
+        "total_premium": 59489.61,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Kim operates a pediatric dental practice with 6 years of experience and a tech adoption level of 41%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $1,043,100. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 41% (higher = more innovation risk)",
+          "Experience: 6 years",
+          "Prior claims: 3 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 3,
+          "total_incurred": 71917.06,
+          "claims_detail": [
+            {
+              "date": "2024-09-26",
+              "type": "Equipment Failure",
+              "amount": 24519.94,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-12-13",
+              "type": "Cyber Incident",
+              "amount": 35619.45,
+              "status": "Closed"
+            },
+            {
+              "date": "2024-12-05",
+              "type": "Procedure Complication",
+              "amount": 11777.67,
+              "status": "Closed"
+            }
+          ]
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 8923.44
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    },
+    {
+      "policy_number": "RR-DENT-2026-012",
+      "status": "Active",
+      "insured_entity": {
+        "name": "Dr. Lopez",
+        "specialty": "Pediatric",
+        "address": {
+          "street": "1964 Dental Way",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85061"
+        },
+        "contact": {
+          "name": "Dr. Lopez",
+          "phone": "(602) 555-5170"
+        }
+      },
+      "risk_class": {
+        "primary": "Dental Practice Liability",
+        "sub_class": "Pediatric Dentistry",
+        "market_segment": "Pediatric"
+      },
+      "term": {
+        "effective_date": "2026-01-01",
+        "expiration_date": "2026-12-31",
+        "policy_period_days": 365
+      },
+      "coverage": {
+        "limit_of_liability": {
+          "per_occurrence": 250000,
+          "aggregate": 1000000,
+          "currency": "USD"
+        },
+        "deductible": {
+          "amount": 5000,
+          "applies_to": "per_occurrence"
+        },
+        "covered_perils": [
+          "Equipment failure (CBCT, 3D printers, autoclaves)",
+          "Unforeseen procedure complications",
+          "Cybersecurity breaches and data exposure",
+          "Material compatibility failures",
+          "Lab/subcontractor errors on restorations",
+          "Supply chain disruptions for specialized components"
+        ]
+      },
+      "premium": {
+        "base_premium": 50000,
+        "experience_modification": -8090.25,
+        "total_premium": 41909.75,
+        "payment_terms": "Annual",
+        "installments": 1
+      },
+      "risk_narrative": {
+        "summary": "Dr. Lopez operates a pediatric dental practice with 25 years of experience and a tech adoption level of 36%.",
+        "operations_description": "Practice specializing in pediatric dentistry with annual revenue of $2,406,499. Employs advanced dental technology including digital imaging and CAD/CAM systems.",
+        "risk_factors": [
+          "Tech adoption level: 36% (higher = more innovation risk)",
+          "Experience: 25 years",
+          "Prior claims: 0 in last 3 years"
+        ],
+        "loss_control_measures": [
+          "Quarterly equipment maintenance program",
+          "Annual cybersecurity audit",
+          "Continuing education requirements",
+          "Peer review protocols for advanced procedures"
+        ]
+      },
+      "claims_history": {
+        "prior_3_years": {
+          "total_claims": 0,
+          "total_incurred": 0,
+          "claims_detail": []
+        }
+      },
+      "reinsurance": {
+        "treaty_applicable": true,
+        "excess_of_loss_attachment": 250000,
+        "reinsurer": "Arizona Re (Simulated)",
+        "reinsurance_premium": 6286.46
+      },
+      "underwriting": {
+        "underwriter": "Risk Runners Dental Captive",
+        "approval_date": "2025-12-15",
+        "claims_made_basis": false
+      }
+    }
+  ]
+}

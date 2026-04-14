@@ -1,0 +1,22 @@
+year,dentist_id,dentist_name,specialty,risk_type,amount
+0,5,Dr. Evans,implant,equipment_failure,21445.43
+0,8,Dr. Harris,cosmetic,procedure_complication,17299.24
+1,7,Dr. Garcia,cosmetic,equipment_failure,17276.41
+1,10,Dr. Jones,pediatric,equipment_failure,43716.02
+1,11,Dr. Kim,pediatric,cyber_breach,65596.95
+1,12,Dr. Lopez,pediatric,equipment_failure,21414.44
+3,6,Dr. Foster,implant,equipment_failure,40770.36
+3,10,Dr. Jones,pediatric,procedure_complication,8205.89
+3,11,Dr. Kim,pediatric,cyber_breach,54187.6
+4,4,Dr. Davis,implant,procedure_complication,24554.17
+4,9,Dr. Ibrahim,cosmetic,procedure_complication,14077.48
+5,2,Dr. Baker,general,procedure_complication,17808.3
+5,6,Dr. Foster,implant,equipment_failure,23664.02
+5,9,Dr. Ibrahim,cosmetic,cyber_breach,28233.41
+5,11,Dr. Kim,pediatric,cyber_breach,31909.0
+6,9,Dr. Ibrahim,cosmetic,equipment_failure,60072.75
+7,9,Dr. Ibrahim,cosmetic,procedure_complication,22943.37
+8,6,Dr. Foster,implant,equipment_failure,16048.53
+8,9,Dr. Ibrahim,cosmetic,procedure_complication,13179.15
+8,12,Dr. Lopez,pediatric,procedure_complication,20540.2
+9,3,Dr. Chen,general,equipment_failure,21427.65
